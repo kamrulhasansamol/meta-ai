@@ -4,7 +4,7 @@
 
 import sys
 try:
-    import main_obfuscated_core
+    import meta
 except ImportError as e:
     print(f"[!] Error loading native module: {e}")
     sys.exit(1)
